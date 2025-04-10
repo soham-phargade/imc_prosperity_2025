@@ -2,6 +2,8 @@ from datamodel import OrderDepth, UserId, TradingState, Order
 from typing import List
 import string
 
+POSITION_LIMIT = 50
+
 class Trader:
     def run(self, state):
         result = {}
